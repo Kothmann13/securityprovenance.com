@@ -1,0 +1,5 @@
+Contact: mailto:info@securityprovenance.com
+Expires: 2027-10-28T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://securityprovenance.com/.well-known/security.txt
+Policy: https://securityprovenance.com/privacy.html

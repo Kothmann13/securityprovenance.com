@@ -48,6 +48,8 @@ p{margin:0 0 1em}
 .btn-ghost:hover{color:#fff;border-color:var(--silver-2)}
 /* sections */
 section{padding:clamp(3.2rem,7vw,5.5rem) 0}
+section[id]{scroll-margin-top:5.5rem}
+@media (max-width:520px){section[id]{scroll-margin-top:10.5rem}}
 .section-alt{background:var(--navy-2);border-block:1px solid var(--line)}
 .section-head{max-width:44rem;margin-bottom:2.2rem}
 .section-head p{color:var(--muted)}
@@ -118,3 +120,7 @@ section{padding:clamp(3.2rem,7vw,5.5rem) 0}
 .h3{font-size:1.25rem}
 .center-block{margin-inline:auto}
 .center-btns{justify-content:center}
+
+/* Meet the Founder */
+.founder-copy{max-width:44rem}
+.founder-copy p{color:#cfd5df}
